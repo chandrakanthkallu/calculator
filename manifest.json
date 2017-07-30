@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "calculator",
+  "version": "2.0.1",
+ 
+  "description": "calculator.",
+
+  "icons": {
+    "48": "icons/icon-20.png",
+    "96": "icons/icon-21.png"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+  "browser_action": {
+  "browser_style": true,
+  "default_icon": {
+    "19": "icons/icon-20.png",
+    "38": "icons/icon-21.png"
+  },
+  "default_title": "calculator"
+  },
+  "background": {
+    "scripts": ["calc.js"]
+  }
+}
